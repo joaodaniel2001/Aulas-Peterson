@@ -9,7 +9,7 @@
 
 ### 📂 Comandos básicos
 
-- Para referências o código **JavaScript** dentro do **HTML** é necessário utilizar o seguinte código:
+- Para referênciar o código **JavaScript** dentro do **HTML** é necessário utilizar o seguinte código:
 
 ```html
     <!-- Utilize o script -->
