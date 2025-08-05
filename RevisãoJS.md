@@ -2,13 +2,12 @@
 
 ## 🔍 Sumário
 
-- [📂 Comandos basicos](#📂-comandos-basicos)
-- [📂 Declaracao de variaveis](#📂-declaracao-de-variaveis)
-- [📂 Operacoes aritmeticas](#📂-operacoes-aritmeticas)
-- [📂 Estruturas de controle](#📂-estruturas-de-controle)
+- [Comandos básicos](#comandos)
+- [Declaração de variáveis](#declaracao-variaveis)
+- [Operações aritméticas](#operacoes-aritmeticas)
+- [Estruturas de controle](#estrutura-controle)
 
-
-### 📂 Comandos basicos
+<h3 id="comandos-basicos">📂 Comandos básicos</h3>
 
 - Para referênciar o código **JavaScript** dentro do **HTML** é necessário utilizar o seguinte código:
 
@@ -21,7 +20,7 @@
 </html>
 ```
 
-### 📂 Declaracao de variaveis
+<h3 id="declaracao-variaveis">📂 Declaração de variáveis</h3>
 
 - **CONST:** é uma variável que o seu valor será fixo.
 
@@ -57,7 +56,7 @@ if (true) {
 console.log(numero) // Saída 20;
 ```
 
-### 📂 Operacoes aritmeticas
+<h3 id = "operacoes-aritmeticas">📂-Operações aritméticas</h3>
 
 - #### Diferença entre ***=***, ***==*** e ***===***:
 
@@ -81,7 +80,7 @@ console.log(numero) // Saída 20;
     console.log(x===z) // Saída: false | Pois "x" é um número e "z" é uma string
     ```
 
-### 📂 Estruturas de controle
+<h3 id = "estrutura-controle">📂Estruturas de controle</h3>
 
 - **IF:** executa um bloco de código se a condição for verdadeira.
 
