@@ -2,10 +2,11 @@
 
 ## 🔍 Sumário
 
-- [Comandos básicos](#📂-comandos-basicos)
-- [Declaração de variáveis](#📂-declaracao-de-variaveis)
-- [Operações Aritméticas](#📂-operacoes-aritmeticas)
-- [Estruturas de controle](#📂-estruturas-de-controle)
+- [📂 Comandos basicos](#📂-comandos-basicos)
+- [📂 Declaracao de variaveis](#📂-declaracao-de-variaveis)
+- [📂 Operacoes aritmeticas](#📂-operacoes-aritmeticas)
+- [📂 Estruturas de controle](#📂-estruturas-de-controle)
+
 
 ### 📂 Comandos basicos
 
