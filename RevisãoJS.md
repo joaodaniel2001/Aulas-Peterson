@@ -7,6 +7,8 @@
 - [Operações aritméticas](#operacoes-aritmeticas)
 - [Estruturas de controle](#estrutura-controle)
 
+<br>
+
 <h3 id="comandos-basicos">📂 Comandos básicos</h3>
 
 - Para referênciar o código **JavaScript** dentro do **HTML** é necessário utilizar o seguinte código:
@@ -20,14 +22,20 @@
 </html>
 ```
 
+<br>
+
 <h3 id="declaracao-variaveis">📂 Declaração de variáveis</h3>
 
 - **CONST:** é uma variável que o seu valor será fixo.
+
+<br>
 
 ```javascript
 const pi = 3.14;
 console.log(pi); // Saída: 3.14
 ```
+
+<br>
 
 - **LET:** é uma variável de escopo, acessível apenas dentro do bloco em que foi criado.
 
@@ -42,6 +50,7 @@ if (true) {
 console.log(contador); // Saída: 0
 ```
 
+<br>
 
 - **VAR:** é uma variável com escopo de função, acessível em toda a função onde foi declarada, mesmo fora do bloco.
 
@@ -55,6 +64,8 @@ if (true) {
 
 console.log(numero) // Saída 20;
 ```
+
+<br>
 
 <h3 id = "operacoes-aritmeticas">📂-Operações aritméticas</h3>
 
@@ -79,6 +90,7 @@ console.log(numero) // Saída 20;
     let z = "20" // "z" também é uma string
     console.log(x===z) // Saída: false | Pois "x" é um número e "z" é uma string
     ```
+<br>
 
 <h3 id = "estrutura-controle">📂Estruturas de controle</h3>
 
@@ -92,6 +104,8 @@ console.log(numero) // Saída 20;
     }
     ```
 
+<br>
+
 - **IF...ELSE:** executa um bloco de código se a condição for verdadeira, caso contrário, executa outro bloco.
 
     ```javascript
@@ -103,6 +117,8 @@ console.log(numero) // Saída 20;
         console.log("Reprovado");
     } // Saída: Reprovado
     ```
+
+<br>
 
 - **ELSE IF:** permite verificar múltiplas condições.
 
@@ -117,6 +133,8 @@ console.log(numero) // Saída 20;
         console.log("Reprovado");
     } // Saída: Recuperação
     ```
+
+<br>
 
 - **SWITCH:** compara uma variável com múltiplos valores.
 
@@ -138,6 +156,8 @@ console.log(numero) // Saída 20;
     } // Saída: Terça-feira
     ```
 
+<br>
+
 - **FOR:** é usado quando você sabe qauntas vezes deseja repetir.
 
     ```javascript
@@ -153,6 +173,8 @@ console.log(numero) // Saída 20;
     Número: 1
     Número: 2
     ```
+
+<br>
 
 - **WHILE:** ele continua a executar enquanto a condição for verdadeira.
 
@@ -174,6 +196,8 @@ console.log(numero) // Saída 20;
     Número: 4
     ```
 
+<br>
+
 - **BREAK:** interrompe a execução de um loop ou switch.
 
     ```javascript
@@ -192,6 +216,8 @@ console.log(numero) // Saída 20;
     1
     2
     ```
+
+<br>
 
 - **CONTINUE:** pula a iteração atual e continua com a próxima.
 
