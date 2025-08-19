@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>Painel de Produção Inteligente</title>
+</head>
+<body>
+    <h1>Dashboard da Fábrica</h1>
+
+    <section id="linhaA" class="linha">
+        <h2>Linha A</h2>
+        <p class="status ativo">Status: Produzindo</p>
+        <p class="operador">Operador: João</p>
+        <button class="acao parar">Parar Linha</button>
+        <button class="acao reiniciar">Reiniciar Linha</button>
+    </section>
+
+    <section id="linhaB" class="linha">
+        <h2>Linha B</h2>
+        <p class="status parado">Status: Parada</p>
+        <p class="operador">Operador: Maria</p>
+        <button class="acao iniciar">Iniciar Linha</button>
+    </section>
+
+    <section id="linhaC" class="linha">
+        <h2>Linha C</h2>
+        <p class="status manutencao">Status: Em Manutenção</p>
+        <p class="operador">Operador: Carlos</p>
+        <button class="acao verificar">Verificar Problema</button>
+    </section>
+
+    <div id="estoque">
+        <h2>Estoque</h2>
+        <ul>
+            <li class="produto aprovado">Produto A - OK</li>
+            <li class="produto reprovado">Produto B - Defeito</li>
+            <li class="produto aprovado">Produto C - OK</li>
+        </ul>
+    </div>
+</body>
+</html>
+
