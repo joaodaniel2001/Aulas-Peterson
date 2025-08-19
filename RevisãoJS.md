@@ -6,6 +6,7 @@
 - [Declaração de variáveis](#declaracao-variaveis)
 - [Operações aritméticas](#operacoes-aritmeticas)
 - [Estruturas de controle](#estrutura-controle)
+- [DOM](#dom)
 
 <br>
 
@@ -67,7 +68,7 @@ console.log(numero) // Saída 20;
 
 <br>
 
-<h3 id = "operacoes-aritmeticas">📂-Operações aritméticas</h3>
+<h3 id = "operacoes-aritmeticas">📂 Operações aritméticas</h3>
 
 - #### Diferença entre ***=***, ***==*** e ***===***:
 
@@ -238,3 +239,95 @@ console.log(numero) // Saída 20;
     3
     4
     ```
+
+<br>
+
+<h3 id = "dom">📂 DOM </h3>
+
+- **Acessando elementos DOM:**
+
+```javascript
+// Seleciona o primeiro elemento que tenha o id "titulo"
+const titulo = document.getElementById("titulo");
+
+// Seleciona o primeiro elemento que corresponda ao seletor CSS
+const primeiroParagrafo = document.querySelector("p");
+
+// Seleciona todos os elementos que correspondam ao seletor CSS (retorna NodeList)
+const todosParagrafos = document.querySelectorAll("p");
+```
+
+<br>
+
+- **Modificando o conteúdo de um elemento:**
+
+```javascript
+const box = document.querySelector(".caixa");
+
+box.style.backgroundColor = "lightblue";
+box.style.fontSize = "20px";
+```
+
+<br>
+
+- **Manipulando classes CSS:**
+
+```javascript
+const botao = document.querySelector("button");
+
+// Adiciona uma classe
+botao.classList.add("ativo");
+
+// Remove uma classe
+botao.classList.remove("inativo");
+
+// Alterna (adiciona se não existir, remove se existir)
+botao.classList.toggle("ativo");
+```
+
+<br>
+
+- **Criando, adicionando e removendo elementos:**
+
+```javascript
+const lista = document.getElementById("lista");
+
+// Cria um novo item <li>
+const novoItem = document.createElement("li");
+
+// Define o texto do item
+novoItem.textContent = "Item novo";
+
+// Adiciona o novo item à lista
+lista.appendChild(novoItem);
+```
+
+- Para remover um elemento:
+
+```javascript
+const item = document.querySelector("li");
+item.remove();  // Remove o elemento selecionado do DOM
+```
+
+<br>
+
+- **Eventos no DOM:** Eventos são ações que ocorrem na página, como cliques, envio de formulários, etc.
+
+```javascript
+const botao = document.querySelector("button");
+
+// Adiciona um evento de clique ao botão
+botao.addEventListener("click", function() {
+    alert("Você clicou no botão!");
+});
+```
+
+- Também é possível usar funções nomeadas:
+
+```javascript
+function mostrarMensagem() {
+    console.log("Botão clicado!");
+}
+
+botao.addEventListener("click", mostrarMensagem);
+```
