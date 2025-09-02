@@ -14,7 +14,7 @@ btn1.addEventListener("click",
 btn2.addEventListener("click",
     function () {
         texto.style.display = "flex"
-    }    
+    }
 )
 
 btn3.addEventListener("click",
