@@ -41,3 +41,17 @@
     // 04
     document.querySelector("header p").innerHTML = `Aberto todos os dias, das 8h às 20h.`
 
+/* --- outerHTML --- */
+
+    // 01
+    document.querySelector("#lista-produtos").children[0].outerHTML = `<li>Macaron de Framboesa</li>`;
+
+    // 02
+    document.querySelector("#rodape").outerHTML = `<p id="rodape">© 2025 Dulce Paris - Feito com ❤️ para você.</p>`;
+
+    // 03
+    document.querySelector("h2").outerHTML = `<h2 id="titulo">🍵 Nossas Bebidas & Doces</h2>`;
+
+    // 04
+    const menu = document.querySelector("#menu");
+    menu.children[menu.children.length - 1].outerHTML = `<li><a href="#doces">Doces</a></li>`;
