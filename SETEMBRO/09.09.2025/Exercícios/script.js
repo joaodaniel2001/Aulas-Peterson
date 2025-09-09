@@ -55,3 +55,14 @@
     // 04
     const menu = document.querySelector("#menu");
     menu.children[menu.children.length - 1].outerHTML = `<li><a href="#doces">Doces</a></li>`;
+
+/* --- Desafio Extra --- */
+
+    // 01
+    document.querySelector("#menu").innerHTML += `<li><a href="#contato">Contato</a></li>`;
+
+    // 02
+    document.querySelector("#menu").children[1].outerHTML = "<li><a>Sobremesas</a></li>";
+
+    // 03
+    document.querySelector("#lista-produtos").innerHTML = `<h3>Mais Pedidos:</h3>` + document.querySelector("#lista-produtos").innerHTML;
