@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dulce Paris - Cafeteria</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background: #f8f2ec;
+            margin: 0;
+            padding: 0;
+        }
+
+        header {
+            background: #c96f53;
+            color: white;
+            text-align: center;
+            padding: 20px;
+        }
+
+        header h1 {
+            margin: 0;
+            font-size: 2.2em;
+        }
+
+        nav {
+            background: #f2d0c1;
+            padding: 10px;
+        }
+
+        nav ul {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+        }
+
+        nav a {
+            text-decoration: none;
+            color: #5a2d1d;
+            font-weight: bold;
+        }
+
+        section {
+            padding: 20px;
+            max-width: 800px;
+            margin: auto;
+        }
+
+        section h2 {
+            color: #5a2d1d;
+            margin-bottom: 10px;
+        }
+
+        ul.produtos {
+            list-style: none;
+            padding: 0;
+        }
+
+        ul.produtos li {
+            background: #fff;
+            margin: 10px 0;
+            padding: 15px;
+            border-radius: 8px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        }
+
+        footer {
+            background: #c96f53;
+            color: white;
+            text-align: center;
+            padding: 15px;
+            margin-top: 20px;
+            bottom: 0;
+            position: fixed;
+            width: 100%;
+        }
+    </style>
+</head>
+
+<body>
+
+    <header>
+        <h1>Dulce Paris</h1>
+        <p>Sua cafeteria de inspiração francesa</p>
+    </header>
+
+    <nav>
+        <ul id="menu">
+            <li><a href="#cafes">Cafés</a></li>
+            <li><a href="#bolos">Bolos</a></li>
+            <li><a href="#paes">Pães</a></li>
+        </ul>
+    </nav>
+
+    <section>
+        <h2 id="titulo">Produtos em Destaque</h2>
+        <ul class="produtos" id="lista-produtos">
+            <li>Café Expresso</li>
+            <li>Capuccino</li>
+            <li>Croissant</li>
+            <li>Bolo de Chocolate</li>
+        </ul>
+    </section>
+
+    <footer>
+        <p id="rodape">© 2025 Dulce Paris - Todos os direitos reservados.</p>
+    </footer>
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
